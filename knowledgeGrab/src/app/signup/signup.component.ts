@@ -16,8 +16,8 @@ import { Component, OnInit } from '@angular/core';
 export class SignupComponent {
 
 
-  submit(login){
-console.log("Form submitted!", login);
+  submit(signup){
+console.log("Form submitted!", signup);
 
   }
 
