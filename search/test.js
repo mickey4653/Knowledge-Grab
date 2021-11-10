@@ -1,6 +1,10 @@
-var s = Search();
-s.putInTrie("C++ programming tutorial");
+const search = require("./search");
 
-output = s.searchClasses("programming");
+var s = new search.Search();
 
-output;
+s.putInTrie("C++ programming tutorial", "hi there!");
+s.putInTrie("Java lecture", "hello 2");
+
+output = s.searchClasses("lec");
+
+console.log(output);
