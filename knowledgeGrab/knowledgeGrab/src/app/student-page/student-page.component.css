@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Toggle Styles */
+
+#viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+}
+
+
+/* Sidebar Styles */
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #f4dba4;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar header {
+    background-color: #054023;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar header a:hover {
+    color: #fff;
+}
+
+
+/* #sidebar .nav {} */
+
+#sidebar .nav a {
+    background: none;
+    border-bottom: 1px solid #ffce64;
+    color: #013018;
+    font-size: 14px;
+    padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+    background: none;
+    color: #054023;
+}
+
+#sidebar .nav a i {
+    margin-right: 16px;
+}
+
+.container-fluid {
+    margin: 10px auto;
+}
+
+
+/* discussion board */
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.card {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    border-width: 0;
+    transition: all .2s
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: .625rem;
+    height: 3.5rem;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(26, 54, 126, 0.125)
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3f6ad8;
+    border-color: #3f6ad8
+}
+
+.btn {
+    font-size: 0.8rem;
+    font-weight: 500;
+    outline: none !important;
+    position: relative;
+    transition: color 0.15s, background-color 0.15s, border-color 0.15s, box-shadow 0.15s
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card-body p {
+    font-size: 13px
+}
+
+a {
+    color: #E91E63;
+    text-decoration: none !important;
+    background-color: transparent
+}
+
+.media img {
+    width: 40px;
+    height: auto
+}
